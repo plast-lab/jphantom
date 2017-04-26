@@ -65,6 +65,12 @@ task wrapper(type: Wrapper) {
 
 mainClassName = "org.clyze.jphantom.Driver"
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.clyze.jphantom.Driver'
+    }
+}
+
 doop {
     // host = 'centauri.di.uoa.gr'
     host = clue_host
