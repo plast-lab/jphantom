@@ -25,7 +25,7 @@ buildscript {
     }
 
     dependencies {
-        classpath ('org.clyze:doop-gradle-plugin:1.7.+')
+        classpath ('org.clyze:doop-gradle-plugin:2.0.+')
     }
 }
 
